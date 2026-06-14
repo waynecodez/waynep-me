@@ -1,9 +1,9 @@
 import { ArrowIcon } from "./icons";
 
 const focus = [
-	{ value: "Full-stack", label: "React · Go · Swift" },
-	{ value: "Web & Native", label: "From UI to infrastructure" },
-	{ value: "Shipping", label: "Docker · Kubernetes" },
+	{ value: "Polyglot", label: "TS · Go · Swift · Rust · Python" },
+	{ value: "Every surface", label: "Web · Native · Mobile · CLI" },
+	{ value: "Cloud-native", label: "Docker · Kubernetes" },
 ];
 
 export function Hero() {
@@ -36,9 +36,10 @@ export function Hero() {
 					className="mt-6 max-w-2xl animate-fade-up text-lg leading-relaxed text-zinc-600 dark:text-zinc-400"
 					style={{ animationDelay: "0.1s" }}
 				>
-					Full-stack software engineer working across React, Go, Python and
-					Swift. I care about clean abstractions, reliable systems, and the
-					small details that make a product feel right — like{" "}
+					Full-stack engineer working across TypeScript, Go, Swift, Rust and
+					Python — building native apps, web platforms, mobile apps, and
+					developer tooling. I care about clean abstractions, reliable systems,
+					and the details that make software feel right — like{" "}
 					<span className="text-zinc-900 dark:text-zinc-100">Tether</span>, a
 					proximity lock for the Mac.
 				</p>

@@ -3,43 +3,127 @@ export type ProjectLink = {
 	href: string;
 };
 
+export type ProjectCategory =
+	| "Developer Tools & Platform"
+	| "Native & Desktop"
+	| "Mobile & Web"
+	| "Libraries";
+
 export type Project = {
 	id: string;
 	name: string;
 	tagline: string;
 	description: string;
 	tags: string[];
+	category: ProjectCategory;
 	links?: ProjectLink[];
 	status?: string;
 };
 
-// Placeholder projects — swap these for your own. The featured project
-// (Tether) lives in its own section component; these populate the grid.
+// Display order of the category groups in the grid.
+export const categoryOrder: ProjectCategory[] = [
+	"Developer Tools & Platform",
+	"Native & Desktop",
+	"Mobile & Web",
+	"Libraries",
+];
+
+// The featured project (Tether) has its own section; these fill the grid.
+// Add repo/demo links to any entry via the `links` array.
 export const projects: Project[] = [
 	{
-		id: "realtime-dashboard",
-		name: "Realtime Dashboard",
-		tagline: "Live analytics interface",
+		id: "forge",
+		name: "Forge",
+		tagline: "AI deploy control panel",
 		description:
-			"A data dashboard that streams live metrics over WebSockets, with composable charts, filtering, and a fast, accessible UI. Built React-first with a typed Go backend.",
-		tags: ["React", "TypeScript", "Go", "WebSockets"],
-		status: "Demo",
+			"A control panel that wires an AI coding assistant, GitLab, and Kubernetes together — propose a code change, review it, and ship the deploy from one place. Published as an embeddable npm package.",
+		tags: ["React", "TypeScript", "Vite", "Express", "Kubernetes"],
+		category: "Developer Tools & Platform",
+		status: "npm package",
 	},
 	{
-		id: "rest-api",
-		name: "Service API",
-		tagline: "Typed backend service",
+		id: "k8s-dashboard",
+		name: "Kubernetes Dashboard",
+		tagline: "Embeddable cluster UI",
 		description:
-			"A production-shaped REST API in Go with PostgreSQL, auth, request validation, and containerized deploys to Kubernetes. Tested end to end with a clean CI pipeline.",
-		tags: ["Go", "PostgreSQL", "Docker", "K8s"],
+			"An enterprise-grade Kubernetes dashboard shipped as a drop-in npm package: a React UI plus an Express server for talking to the cluster, with deployments, pods, and live status.",
+		tags: ["React", "Express", "Kubernetes", "TypeScript"],
+		category: "Developer Tools & Platform",
+		status: "npm package",
+	},
+	{
+		id: "kit",
+		name: "Kit",
+		tagline: "Developer command center",
+		description:
+			"A terminal UI inspired by modern coding agents — aliases, services, workflows, and project scaffolding from a single keyboard-driven app.",
+		tags: ["TypeScript", "React (Ink)", "CLI"],
+		category: "Developer Tools & Platform",
+	},
+	{
+		id: "go-cli",
+		name: "CLI",
+		tagline: "Workflow automation tool",
+		description:
+			"A fast command-line tool in Go for automating project and deployment workflows, distributed as a single static binary.",
+		tags: ["Go", "CLI"],
+		category: "Developer Tools & Platform",
+	},
+	{
+		id: "tether-note",
+		name: "Tether",
+		tagline: "Proximity lock for the Mac — featured above",
+		description:
+			"A Swift menu-bar app that locks and unlocks your Mac over Bluetooth proximity, paired with a fixed-UUID iOS beacon. See the full breakdown in the featured section.",
+		tags: ["Swift", "macOS", "iOS", "BLE"],
+		category: "Native & Desktop",
+		links: [{ label: "Read more", href: "#tether" }],
+	},
+	{
+		id: "sidekick",
+		name: "Sidekick",
+		tagline: "Desktop companion app",
+		description:
+			"A Tauri desktop app — Rust core, React UI — that rides alongside DJ software, surfacing track context and controls without getting in the way. Native drag-and-drop and a tiny footprint.",
+		tags: ["Tauri", "Rust", "React", "TypeScript"],
+		category: "Native & Desktop",
 	},
 	{
 		id: "mobile-app",
-		name: "Mobile Companion",
-		tagline: "Cross-platform app",
+		name: "Mobile App",
+		tagline: "Cross-platform native app",
 		description:
-			"A React Native app sharing a design system and API client with the web. Native tabs, real auth, and offline-aware data fetching — one experience across platforms.",
-		tags: ["React Native", "Expo", "TypeScript"],
+			"A React Native app built on Expo and Expo Router, sharing an API client and design language with the web. Native tabs and effects, real auth, and cached data via React Query.",
+		tags: ["React Native", "Expo", "React Query", "TypeScript"],
+		category: "Mobile & Web",
 		status: "In progress",
+	},
+	{
+		id: "streaming-platform",
+		name: "Streaming Platform",
+		tagline: "Full-stack media product",
+		description:
+			"A full-stack streaming product: a React 19 SPA, a Go API, and a Python AI service for in-browser audio processing. Live rooms, real-time presence over WebSockets, and Kubernetes deploys.",
+		tags: ["React 19", "Go", "Python", "WebSockets", "Kubernetes"],
+		category: "Mobile & Web",
+	},
+	{
+		id: "react-ui-plugins",
+		name: "React UI Plugins",
+		tagline: "Plugin-driven component rendering",
+		description:
+			"A React library that renders UI through a flexible plugin architecture, letting host apps register and compose components at runtime. Published to npm.",
+		tags: ["React", "TypeScript", "Vite"],
+		category: "Libraries",
+		status: "npm package",
+	},
+	{
+		id: "design-system",
+		name: "Component Library",
+		tagline: "Storybook design system",
+		description:
+			"A reusable React component library developed and documented in Storybook, with interaction tests and a consistent, themeable design language.",
+		tags: ["React", "Storybook", "TypeScript"],
+		category: "Libraries",
 	},
 ];
