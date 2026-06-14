@@ -27,10 +27,9 @@ export function About() {
 					</h2>
 					<div className="mt-6 space-y-5 text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
 						<p>
-							I&apos;m Wayne Puranda — a Senior Software Engineer at{" "}
-							<span className="text-zinc-900 dark:text-zinc-100">Inspire11</span>,
-							a global consulting firm, where I build tailored software for
-							clients from first commit to production.
+							I&apos;m Wayne Puranda — a software engineer who enjoys taking an
+							idea from a blank repo to something people actually use, and
+							owning every layer in between.
 						</p>
 						<p>
 							I work end to end: intuitive front ends in React and React Native
@@ -41,8 +40,8 @@ export function About() {
 							lock decision you can trust.
 						</p>
 						<p>
-							Outside client work I design and ship my own products, which is
-							where Tether and iPlayuListen come from.
+							Outside of work I design and ship my own products, which is where
+							projects like Tether come from.
 						</p>
 					</div>
 				</div>
