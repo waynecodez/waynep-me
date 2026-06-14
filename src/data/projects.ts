@@ -13,34 +13,33 @@ export type Project = {
 	status?: string;
 };
 
-// Edit this list to add or reorder projects. The featured project (Tether)
-// lives in its own section component; these populate the projects grid.
+// Placeholder projects — swap these for your own. The featured project
+// (Tether) lives in its own section component; these populate the grid.
 export const projects: Project[] = [
 	{
-		id: "iplayulisten",
-		name: "iPlayuListen",
-		tagline: "Social music streaming platform",
+		id: "realtime-dashboard",
+		name: "Realtime Dashboard",
+		tagline: "Live analytics interface",
 		description:
-			"A full-stack streaming product — React 19 SPA, Go API, and a Python AI service for in-browser stem separation and remixing. Live rooms, real-time presence over WebSockets, and an instant-restore boot that renders from a persisted snapshot.",
-		tags: ["React 19", "TypeScript", "Go", "Python", "WebSockets", "K8s"],
-		status: "Live",
-		links: [{ label: "Visit", href: "https://iplayulisten.com" }],
+			"A data dashboard that streams live metrics over WebSockets, with composable charts, filtering, and a fast, accessible UI. Built React-first with a typed Go backend.",
+		tags: ["React", "TypeScript", "Go", "WebSockets"],
+		status: "Demo",
 	},
 	{
-		id: "ipul-mobile",
-		name: "iPlayuListen Mobile",
-		tagline: "Native companion app",
+		id: "rest-api",
+		name: "Service API",
+		tagline: "Typed backend service",
 		description:
-			"The iOS companion to the streaming platform, built with Expo and native tabs. Real auth, a discover feed, and detail pages — kept in lockstep with the web experience.",
-		tags: ["Expo", "React Native", "TypeScript"],
+			"A production-shaped REST API in Go with PostgreSQL, auth, request validation, and containerized deploys to Kubernetes. Tested end to end with a clean CI pipeline.",
+		tags: ["Go", "PostgreSQL", "Docker", "K8s"],
+	},
+	{
+		id: "mobile-app",
+		name: "Mobile Companion",
+		tagline: "Cross-platform app",
+		description:
+			"A React Native app sharing a design system and API client with the web. Native tabs, real auth, and offline-aware data fetching — one experience across platforms.",
+		tags: ["React Native", "Expo", "TypeScript"],
 		status: "In progress",
-	},
-	{
-		id: "sidekick",
-		name: "Sidekick",
-		tagline: "Desktop DJ companion",
-		description:
-			"A lightweight Tauri desktop app that rides alongside your DJ software, surfacing track context and controls without getting in the way.",
-		tags: ["Tauri", "Rust", "TypeScript"],
 	},
 ];

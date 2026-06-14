@@ -6,14 +6,14 @@ type Role = {
 	highlights: string[];
 };
 
-// Update periods/highlights as things change.
+// Replace company names, periods, and highlights with your own.
 const roles: Role[] = [
 	{
-		company: "Inspire11",
+		company: "Software Consultancy",
 		title: "Senior Software Engineer",
 		period: "Current",
 		summary:
-			"Build and ship tailored software for clients of a global consulting firm, owning features across the stack.",
+			"Build and ship production software across the stack, owning features from design through deployment.",
 		highlights: [
 			"Front-end interfaces in React.js and React Native, componentized with Tailwind and Storybook",
 			"Backend services in Go with PostgreSQL data layers",
@@ -25,10 +25,10 @@ const roles: Role[] = [
 		title: "Product Engineer",
 		period: "Ongoing",
 		summary:
-			"Design, build, and operate my own products end to end — from native macOS/iOS apps to a full streaming platform.",
+			"Design, build, and operate my own products end to end — from native macOS/iOS apps to full-stack web services.",
 		highlights: [
 			"Tether — a Swift menu-bar app that locks/unlocks the Mac over BLE proximity",
-			"iPlayuListen — React 19 SPA, Go API, and a Python AI service for in-browser remixing",
+			"Full-stack web apps with React front ends and Go APIs",
 			"Run the full lifecycle: design, implementation, CI/CD, and Kubernetes deploys",
 		],
 	},

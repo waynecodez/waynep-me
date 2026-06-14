@@ -2,7 +2,7 @@ import { ArrowIcon } from "./icons";
 
 const focus = [
 	{ value: "Full-stack", label: "React · Go · Swift" },
-	{ value: "Inspire11", label: "Senior Software Engineer" },
+	{ value: "Web & Native", label: "From UI to infrastructure" },
 	{ value: "Shipping", label: "Docker · Kubernetes" },
 ];
 
@@ -22,7 +22,7 @@ export function Hero() {
 						<span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-75" />
 						<span className="relative inline-flex h-2 w-2 rounded-full bg-accent" />
 					</span>
-					Wayne Puranda · Senior Software Engineer
+					Wayne Puranda · Software Engineer
 				</div>
 
 				<h1
@@ -36,13 +36,11 @@ export function Hero() {
 					className="mt-6 max-w-2xl animate-fade-up text-lg leading-relaxed text-zinc-600 dark:text-zinc-400"
 					style={{ animationDelay: "0.1s" }}
 				>
-					Senior Software Engineer at{" "}
-					<span className="text-zinc-900 dark:text-zinc-100">Inspire11</span>,
-					delivering tailored software for clients across the stack. After
-					hours I build my own products — <span className="text-zinc-900 dark:text-zinc-100">Tether</span>,
-					a proximity lock for the Mac, and{" "}
-					<span className="text-zinc-900 dark:text-zinc-100">iPlayuListen</span>, a
-					social music platform.
+					Full-stack software engineer working across React, Go, Python and
+					Swift. I care about clean abstractions, reliable systems, and the
+					small details that make a product feel right — like{" "}
+					<span className="text-zinc-900 dark:text-zinc-100">Tether</span>, a
+					proximity lock for the Mac.
 				</p>
 				<div
 					className="mt-10 flex animate-fade-up flex-wrap items-center gap-3"
@@ -68,10 +66,7 @@ export function Hero() {
 					style={{ animationDelay: "0.2s" }}
 				>
 					{focus.map((item) => (
-						<div
-							key={item.value}
-							className="bg-white p-5 dark:bg-zinc-950"
-						>
+						<div key={item.value} className="bg-white p-5 dark:bg-zinc-950">
 							<dt className="text-lg font-semibold tracking-tight">
 								{item.value}
 							</dt>
