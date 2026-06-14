@@ -1,15 +1,16 @@
-const stack = [
-	"React",
-	"TypeScript",
-	"Go",
-	"Python",
-	"Swift",
-	"Node",
-	"Tailwind",
-	"PostgreSQL",
-	"MongoDB",
-	"Kubernetes",
-	"Docker",
+const skillGroups = [
+	{
+		label: "Frontend",
+		items: ["React.js", "React Native", "TypeScript", "Tailwind", "Storybook"],
+	},
+	{
+		label: "Backend",
+		items: ["Go", "Node", "PostgreSQL", "MongoDB", "REST · WebSockets"],
+	},
+	{
+		label: "Platform",
+		items: ["Docker", "Kubernetes", "CI/CD", "Swift", "Python"],
+	},
 ];
 
 export function About() {
@@ -24,29 +25,49 @@ export function About() {
 					<h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
 						Engineer who likes the whole stack.
 					</h2>
-				</div>
-				<div className="space-y-5 text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
-					<p>
-						I&apos;m Wayne — a software engineer who enjoys taking an idea from a
-						blank repo to something people actually use. I move comfortably
-						between a Swift menu-bar app, a Go service, a Python AI pipeline, and
-						a React front end.
-					</p>
-					<p>
-						My favourite problems are the ones that need a clean abstraction and
-						a stubborn attention to real-world detail — like turning a noisy
-						Bluetooth signal into a lock decision you can trust.
-					</p>
-					<div className="flex flex-wrap gap-2 pt-2">
-						{stack.map((item) => (
-							<span
-								key={item}
-								className="rounded-lg border border-zinc-200 px-3 py-1 font-mono text-xs text-zinc-600 dark:border-zinc-800 dark:text-zinc-400"
-							>
-								{item}
-							</span>
-						))}
+					<div className="mt-6 space-y-5 text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
+						<p>
+							I&apos;m Wayne Puranda — a Senior Software Engineer at{" "}
+							<span className="text-zinc-900 dark:text-zinc-100">Inspire11</span>,
+							a global consulting firm, where I build tailored software for
+							clients from first commit to production.
+						</p>
+						<p>
+							I work end to end: intuitive front ends in React and React Native
+							with Tailwind and Storybook, robust services in Go backed by
+							PostgreSQL, and Docker and Kubernetes to ship and scale them. I
+							care about clean abstractions and a stubborn attention to
+							real-world detail — like turning a noisy Bluetooth signal into a
+							lock decision you can trust.
+						</p>
+						<p>
+							Outside client work I design and ship my own products, which is
+							where Tether and iPlayuListen come from.
+						</p>
 					</div>
+				</div>
+
+				<div className="space-y-6">
+					<h3 className="text-sm font-semibold uppercase tracking-wider text-zinc-500">
+						Toolkit
+					</h3>
+					{skillGroups.map((group) => (
+						<div key={group.label}>
+							<p className="mb-2 text-sm font-medium text-accent-deep dark:text-accent-soft">
+								{group.label}
+							</p>
+							<div className="flex flex-wrap gap-2">
+								{group.items.map((item) => (
+									<span
+										key={item}
+										className="rounded-lg border border-zinc-200 px-3 py-1 font-mono text-xs text-zinc-600 dark:border-zinc-800 dark:text-zinc-400"
+									>
+										{item}
+									</span>
+								))}
+							</div>
+						</div>
+					))}
 				</div>
 			</div>
 		</section>
