@@ -1,10 +1,9 @@
-import { GithubIcon, GitlabIcon, MailIcon } from "./icons";
+import { GithubIcon, MailIcon } from "./icons";
 
 // Edit these in one place.
 const EMAIL = "mrwaynerp@gmail.com";
 const SOCIALS = [
-	{ label: "GitLab", href: "https://gitlab.com/", icon: GitlabIcon },
-	{ label: "GitHub", href: "https://github.com/", icon: GithubIcon },
+	{ label: "GitHub", href: "https://github.com/waynecodez", icon: GithubIcon },
 ];
 
 export function Contact() {
