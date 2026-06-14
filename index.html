@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+
+    <title>Wayne P — Software Engineer</title>
+    <meta
+      name="description"
+      content="Wayne P — full-stack software engineer building products end to end, from native apps like Tether to streaming infrastructure."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Wayne P — Software Engineer" />
+    <meta
+      property="og:description"
+      content="Full-stack engineer. Creator of Tether, a proximity-based lock for the Mac."
+    />
+    <meta property="og:url" content="https://waynep.me" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://waynep.me" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      // Apply saved/preferred theme before paint to avoid a flash.
+      (function () {
+        try {
+          var t = localStorage.getItem("waynep:theme");
+          if (!t) {
+            t = window.matchMedia("(prefers-color-scheme: dark)").matches
+              ? "dark"
+              : "light";
+          }
+          if (t === "dark") document.documentElement.classList.add("dark");
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
