@@ -1,5 +1,6 @@
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
+import { Experience } from "./components/Experience";
 import { FeaturedTether } from "./components/FeaturedTether";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
@@ -17,6 +18,7 @@ export default function App() {
 				<Hero />
 				<FeaturedTether />
 				<Projects />
+				<Experience />
 				<About />
 				<Contact />
 			</main>
