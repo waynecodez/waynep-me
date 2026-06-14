@@ -1,15 +1,23 @@
 const skillGroups = [
 	{
+		label: "Languages",
+		items: ["TypeScript", "Go", "Swift", "Rust", "Python", "JavaScript"],
+	},
+	{
 		label: "Frontend",
-		items: ["React.js", "React Native", "TypeScript", "Tailwind", "Storybook"],
+		items: ["React", "React Native", "Tailwind", "Vite", "Storybook"],
 	},
 	{
 		label: "Backend",
-		items: ["Go", "Node", "PostgreSQL", "MongoDB", "REST · WebSockets"],
+		items: ["Go", "Node · Express", "PostgreSQL", "MongoDB", "WebSockets"],
 	},
 	{
-		label: "Platform",
-		items: ["Docker", "Kubernetes", "CI/CD", "Swift", "Python"],
+		label: "Native & Desktop",
+		items: ["SwiftUI · AppKit", "Tauri", "Expo", "BLE / CoreBluetooth"],
+	},
+	{
+		label: "Infra & AI",
+		items: ["Docker", "Kubernetes", "CI/CD", "AI tooling"],
 	},
 ];
 

@@ -25,11 +25,12 @@ const roles: Role[] = [
 		title: "Product Engineer",
 		period: "Ongoing",
 		summary:
-			"Design, build, and operate my own products end to end — from native macOS/iOS apps to full-stack web services.",
+			"Design, build, and operate a range of my own products and open tools — native apps, desktop and mobile clients, full-stack web services, and developer tooling.",
 		highlights: [
-			"Tether — a Swift menu-bar app that locks/unlocks the Mac over BLE proximity",
-			"Full-stack web apps with React front ends and Go APIs",
-			"Run the full lifecycle: design, implementation, CI/CD, and Kubernetes deploys",
+			"Native: Tether (Swift, macOS + iOS, BLE) and a Tauri/Rust desktop companion",
+			"Developer tools: an AI deploy control panel, an embeddable Kubernetes dashboard, and CLIs",
+			"Web & mobile: React 19 + Go + Python platforms and a React Native (Expo) app",
+			"Published React libraries to npm and run the full CI/CD + Kubernetes lifecycle",
 		],
 	},
 ];
