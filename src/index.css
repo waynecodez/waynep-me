@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		color-scheme: light dark;
+	}
+
+	html {
+		scroll-behavior: smooth;
+	}
+
+	body {
+		@apply bg-white text-zinc-900 antialiased dark:bg-zinc-950 dark:text-zinc-100;
+		font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+	}
+
+	::selection {
+		@apply bg-accent/30;
+	}
+}
+
+@layer components {
+	.container-narrow {
+		@apply mx-auto w-full max-w-5xl px-6;
+	}
+
+	.section-label {
+		@apply mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-accent-deep dark:text-accent-soft;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		scroll-behavior: auto !important;
+	}
+}
