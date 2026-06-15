@@ -13,11 +13,12 @@ export function Contact() {
 				<div className="overflow-hidden rounded-3xl border border-zinc-200 bg-gradient-to-br from-zinc-50 to-white p-10 dark:border-zinc-800 dark:from-zinc-900/60 dark:to-zinc-950 sm:p-14">
 					<p className="section-label">Contact</p>
 					<h2 className="max-w-xl text-3xl font-semibold tracking-tight sm:text-4xl">
-						Have something to build, or want to talk Tether?
+						Working on something interesting? Let&apos;s talk.
 					</h2>
 					<p className="mt-4 max-w-lg text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
-						The fastest way to reach me is email. I&apos;m open to interesting
-						work and collaborations.
+						Email is the surest way to reach me, and I read all of it.
+						Whether it&apos;s a role, a project, or just a good conversation
+						about building things, I&apos;d love to hear from you.
 					</p>
 
 					<div className="mt-8 flex flex-wrap items-center gap-3">

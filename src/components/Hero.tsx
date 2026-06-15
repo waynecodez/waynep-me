@@ -1,9 +1,9 @@
 import { ArrowIcon } from "./icons";
 
 const focus = [
-	{ value: "Core stack", label: "React · TypeScript · Go" },
-	{ value: "Every surface", label: "Web · Native · Mobile · CLI" },
-	{ value: "Cloud-native", label: "Docker · Kubernetes" },
+	{ value: "Day to day", label: "React · TypeScript · Go" },
+	{ value: "Also happy in", label: "Swift · Rust · Python" },
+	{ value: "Ship & run it", label: "Docker · Kubernetes" },
 ];
 
 export function Hero() {
@@ -29,17 +29,19 @@ export function Hero() {
 					className="max-w-3xl animate-fade-up text-4xl font-semibold leading-[1.1] tracking-tight sm:text-6xl"
 					style={{ animationDelay: "0.05s" }}
 				>
-					I build, ship, and lead software across the entire stack.
+					Hi, I&apos;m Wayne. I build software, and I help teams build it well.
 				</h1>
 				<p
 					className="mt-6 max-w-2xl animate-fade-up text-lg leading-relaxed text-zinc-600 dark:text-zinc-400"
 					style={{ animationDelay: "0.1s" }}
 				>
-					Full-stack engineer — fluent in React, TypeScript and Go, with
-					production experience in Swift, Rust and Python. I lead the technical
-					direction on client engagements — setting architecture, owning
-					delivery from design to production, and building the AI and agentic
-					tooling that makes the team around me faster.
+					I&apos;m a full-stack engineer and tech lead. Most days I&apos;m in
+					React, TypeScript, and Go, though I&apos;ll happily pick up Swift,
+					Rust, or Python when a project needs it. What I really enjoy is taking
+					something from a rough idea all the way to running in production — and
+					being the person who makes everyone around me faster while it happens.
+					Lately a lot of that has meant building AI into products that people
+					actually use.
 				</p>
 				<div
 					className="mt-10 flex animate-fade-up flex-wrap items-center gap-3"

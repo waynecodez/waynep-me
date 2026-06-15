@@ -76,8 +76,12 @@ export function Projects() {
 			<div className="container-narrow">
 				<p className="section-label">Selected work</p>
 				<h2 className="max-w-2xl text-3xl font-semibold tracking-tight sm:text-4xl">
-					From native apps and desktop tools to web platforms and libraries.
+					Some of the things I&apos;ve actually built.
 				</h2>
+				<p className="mt-4 max-w-2xl text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
+					A mix of client work and personal projects — apps, tools, platforms,
+					and a few libraries.
+				</p>
 
 				<div className="mt-14 space-y-14">
 					{grouped.map((group) => (

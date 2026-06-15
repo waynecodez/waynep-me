@@ -10,33 +10,33 @@ import {
 const strengths = [
 	{
 		icon: CompassIcon,
-		title: "Technical leadership & architecture",
-		body: "I lead the technical direction on client engagements across teams of 5 to 30 engineers — setting the architecture, making the hard calls, and unblocking the team. I set the standard the rest of the codebase is built against.",
+		title: "Leading the technical side",
+		body: "On most projects I end up being the person who sets the direction — choosing the architecture, making the call when there isn't an obvious one, and getting people unstuck. I've done that for teams ranging from about 5 to 30 engineers.",
 	},
 	{
 		icon: SparklesIcon,
-		title: "AI & agentic engineering",
-		body: "I build real AI into products: LLM-backed assistants with conversation and generation flows over OpenAI, a Python inference service running PyTorch and Demucs, and agentic developer tools that connect an AI assistant to GitLab and Kubernetes to propose and ship changes.",
+		title: "Building real AI into products",
+		body: "Not demos — things people use. Assistants backed by OpenAI, a Python service running PyTorch and Demucs for audio, and agentic tools that can take a code change all the way from a suggestion to a shipped deploy.",
 	},
 	{
 		icon: LayersIcon,
-		title: "End-to-end ownership",
-		body: "I take features from a blank repo to production — UI, API, data, and deploy — so work ships instead of stalling on handoffs.",
+		title: "Owning it end to end",
+		body: "I'm happiest taking something from an empty repo to people actually using it — frontend, backend, database, deploy. I don't need to hand off half of it to get it done.",
 	},
 	{
 		icon: RocketIcon,
-		title: "Cloud-native, reliable delivery",
-		body: "Docker, Kubernetes, and CI/CD mean what I build lands reliably and stays up — with the observability and rollback paths to keep it that way.",
+		title: "Actually shipping it",
+		body: "Writing the code is only half the job. I get things running on Docker and Kubernetes, set up the CI, and make sure it stays up — with a clear way back if something goes wrong.",
 	},
 	{
 		icon: CodeIcon,
-		title: "Range across the stack",
-		body: "My core is React, TypeScript, and Go, and I've shipped production code in Swift, Rust, and Python when the problem called for it. I go where the work is and ramp fast instead of waiting for the right specialist.",
+		title: "Comfortable across the stack",
+		body: "Home base is React, TypeScript, and Go, but I've shipped real Swift, Rust, and Python too. If a project needs me somewhere unfamiliar, I'd rather just learn it than wait around for a specialist.",
 	},
 	{
 		icon: WrenchIcon,
-		title: "Force-multiplier tooling",
-		body: "I build the dashboards, CLIs, and libraries that make the whole team faster — an agentic deploy control panel, an embeddable Kubernetes dashboard, shared component libraries. Leverage, not just output.",
+		title: "Tools that make the team faster",
+		body: "I like building the unglamorous stuff that quietly speeds everyone up — internal dashboards, CLIs, a shared component library, an agentic deploy panel. The kind of thing that pays off every single day.",
 	},
 ];
 
@@ -49,10 +49,11 @@ export function Strengths() {
 			<div className="container-narrow">
 				<p className="section-label">What I bring</p>
 				<h2 className="max-w-2xl text-3xl font-semibold tracking-tight sm:text-4xl">
-					Engineering that moves the whole product — and the team — forward.
+					A few things I&apos;m genuinely good at.
 				</h2>
 				<p className="mt-4 max-w-2xl text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
-					How I make an impact wherever I land.
+					Less about the buzzwords, more about what I&apos;m actually like to
+					work with.
 				</p>
 
 				<div className="mt-12 grid gap-5 sm:grid-cols-2">

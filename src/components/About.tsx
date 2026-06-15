@@ -71,27 +71,28 @@ export function About() {
 				<div>
 					<p className="section-label">About</p>
 					<h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-						Engineer who likes the whole stack.
+						A bit about me.
 					</h2>
 					<div className="mt-6 space-y-5 text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
 						<p>
-							I&apos;m Wayne Puranda — a software engineer who enjoys taking an
-							idea from a blank repo to something people actually use, and
-							owning every layer in between. It also means leading the technical
-							direction — shaping architecture, mentoring engineers, and being
-							the person the team turns to when something is stuck.
+							I&apos;m Wayne. I&apos;ve been building software for years, and the
+							part I keep coming back to is the whole journey — starting with a
+							blank repo and not stopping until something is live and people are
+							using it. Somewhere along the way I became the person teams lean
+							on for the bigger calls, too: how to shape the architecture, where
+							to mentor, what to do when everyone&apos;s stuck.
 						</p>
 						<p>
-							I work end to end — intuitive front ends in React and React
-							Native, robust services in Go backed by PostgreSQL, and Docker and
-							Kubernetes to ship and scale them — and I care about clean
-							abstractions, reliable systems, and a stubborn attention to
-							real-world detail.
+							I&apos;m most at home in React, TypeScript, and Go, and I genuinely
+							care about the small stuff — code that&apos;s clean enough for the
+							next person, systems that don&apos;t fall over, the details users
+							never notice until they&apos;re missing.
 						</p>
 						<p>
-							Outside of work I design and ship my own products and open-source
-							tools, which keeps me close to every part of the craft and feeds
-							back into the work I do for teams.
+							When I&apos;m not on client work, I&apos;m usually building
+							something of my own — little apps, developer tools, the odd
+							open-source project. It scratches an itch, and it keeps me sharp
+							for the work I do with teams.
 						</p>
 					</div>
 				</div>
