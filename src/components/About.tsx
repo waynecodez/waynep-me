@@ -91,10 +91,10 @@ export function About() {
 							never notice until they&apos;re missing.
 						</p>
 						<p>
-							When I&apos;m not on client work, I&apos;m usually building
-							something of my own — little apps, developer tools, the odd
-							open-source project. It scratches an itch, and it keeps me sharp
-							for the work I do with teams.
+							I&apos;m based in Charlotte, NC. When I&apos;m not on client work,
+							I&apos;m usually building something of my own — little apps,
+							developer tools, the odd open-source project. It scratches an itch,
+							and it keeps me sharp for the work I do with teams.
 						</p>
 					</div>
 				</div>
