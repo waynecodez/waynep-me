@@ -37,10 +37,9 @@ export function About() {
 						<p>
 							I&apos;m Wayne Puranda — a software engineer who enjoys taking an
 							idea from a blank repo to something people actually use, and
-							owning every layer in between. Over the last few years that&apos;s
-							increasingly meant leading the technical direction too: shaping
-							architecture, mentoring, and being the person the team turns to
-							when something is stuck.
+							owning every layer in between. It also means leading the technical
+							direction — shaping architecture, mentoring engineers, and being
+							the person the team turns to when something is stuck.
 						</p>
 						<p>
 							I work end to end — intuitive front ends in React and React

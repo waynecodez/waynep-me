@@ -10,12 +10,12 @@ type Role = {
 const roles: Role[] = [
 	{
 		company: "Software Consultancy",
-		title: "Senior Software Engineer · Acting Tech Lead",
+		title: "Senior Software Engineer · Technical Lead",
 		period: "Current",
 		summary:
-			"Deliver production software for clients across the stack — and, on most engagements, act as the technical lead: owning architecture, decisions, and delivery without the formal title.",
+			"Deliver production software for clients across the stack and lead the technical direction on most engagements — owning architecture, decisions, and delivery end to end.",
 		highlights: [
-			"De facto lead on most client work: set architecture, made key technical calls, and unblocked the team",
+			"Technical lead on most client work: set architecture, made the key technical calls, and unblocked the team",
 			"Front-end interfaces in React.js and React Native, componentized with Tailwind and Storybook",
 			"Backend services in Go with PostgreSQL data layers",
 			"Containerized delivery and orchestration with Docker and Kubernetes",

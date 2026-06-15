@@ -4,7 +4,7 @@ const strengths = [
 	{
 		icon: CompassIcon,
 		title: "Technical leadership & architecture",
-		body: "I've been the de facto tech lead on most client engagements for the past few years — setting the architecture, making the hard calls, and unblocking the team. I do the lead's job whether or not the title is on the door.",
+		body: "I lead the technical direction on client engagements — setting the architecture, making the hard calls, and unblocking the team. I set the standard the rest of the codebase is built against.",
 	},
 	{
 		icon: LayersIcon,
@@ -35,7 +35,7 @@ export function Strengths() {
 					Engineering that moves the whole product — and the team — forward.
 				</h2>
 				<p className="mt-4 max-w-2xl text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
-					How I tend to make an impact wherever I land.
+					How I make an impact wherever I land.
 				</p>
 
 				<div className="mt-12 grid gap-5 sm:grid-cols-2">
