@@ -75,12 +75,14 @@ export function About() {
 					</h2>
 					<div className="mt-6 space-y-5 text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
 						<p>
-							I&apos;m Wayne. I&apos;ve been building software for years, and the
-							part I keep coming back to is the whole journey — starting with a
-							blank repo and not stopping until something is live and people are
-							using it. Somewhere along the way I became the person teams lean
-							on for the bigger calls, too: how to shape the architecture, where
-							to mentor, what to do when everyone&apos;s stuck.
+							I&apos;m Wayne, and I got into this a little sideways — I was ten
+							years old, working through my mom&apos;s college CS homework. The
+							assignments felt like puzzles, I couldn&apos;t put them down, and I
+							never really stopped chasing that feeling. These days it looks like
+							taking something from an empty repo all the way to people actually
+							using it, and being the person teams lean on for the bigger calls:
+							how to shape the architecture, where to mentor, what to do when
+							everyone&apos;s stuck.
 						</p>
 						<p>
 							I&apos;m most at home in React, TypeScript, and Go, and I genuinely
