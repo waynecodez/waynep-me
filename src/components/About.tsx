@@ -1,7 +1,11 @@
 const skillGroups = [
 	{
-		label: "Languages",
-		items: ["TypeScript", "Go", "Swift", "Rust", "Python", "JavaScript"],
+		label: "Core languages",
+		items: ["TypeScript", "JavaScript", "Go"],
+	},
+	{
+		label: "Also shipped with",
+		items: ["Swift", "Rust", "Python"],
 	},
 	{
 		label: "Frontend",
