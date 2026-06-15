@@ -4,7 +4,7 @@ const strengths = [
 	{
 		icon: CompassIcon,
 		title: "Technical leadership & architecture",
-		body: "I lead the technical direction on client engagements — setting the architecture, making the hard calls, and unblocking the team. I set the standard the rest of the codebase is built against.",
+		body: "I lead the technical direction on client engagements across teams of 5 to 30 engineers — setting the architecture, making the hard calls, and unblocking the team. I set the standard the rest of the codebase is built against.",
 	},
 	{
 		icon: LayersIcon,
