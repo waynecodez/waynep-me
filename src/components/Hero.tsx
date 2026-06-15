@@ -36,10 +36,9 @@ export function Hero() {
 					style={{ animationDelay: "0.1s" }}
 				>
 					Full-stack engineer fluent in TypeScript, Go, Swift, Rust and Python.
-					For the past few years I&apos;ve been the de facto technical lead on
-					client engagements — setting architecture, owning delivery from design
-					to production, and building the tooling that makes the team around me
-					faster.
+					I lead the technical direction on client engagements — setting
+					architecture, owning delivery from design to production, and building
+					the tooling that makes the team around me faster.
 				</p>
 				<div
 					className="mt-10 flex animate-fade-up flex-wrap items-center gap-3"
