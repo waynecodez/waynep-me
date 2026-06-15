@@ -15,7 +15,7 @@ const roles: Role[] = [
 		summary:
 			"Deliver production software for clients across the stack and lead the technical direction on most engagements — owning architecture, decisions, and delivery end to end.",
 		highlights: [
-			"Technical lead on most client work: set architecture, made the key technical calls, and unblocked the team",
+			"Technical lead across teams of 5–30 engineers: set architecture, made the key technical calls, and unblocked the team",
 			"Front-end interfaces in React.js and React Native, componentized with Tailwind and Storybook",
 			"Backend services in Go with PostgreSQL data layers",
 			"Containerized delivery and orchestration with Docker and Kubernetes",
