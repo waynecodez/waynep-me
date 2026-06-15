@@ -86,3 +86,37 @@ export function ShieldIcon(props: SVGProps<SVGSVGElement>) {
 		</svg>
 	);
 }
+
+export function CompassIcon(props: SVGProps<SVGSVGElement>) {
+	return (
+		<svg {...base} {...props}>
+			<circle cx="12" cy="12" r="9" />
+			<path d="m15.5 8.5-2 5-5 2 2-5 5-2z" />
+		</svg>
+	);
+}
+
+export function LayersIcon(props: SVGProps<SVGSVGElement>) {
+	return (
+		<svg {...base} {...props}>
+			<path d="m12 2 9 5-9 5-9-5 9-5z" />
+			<path d="m3 12 9 5 9-5M3 17l9 5 9-5" />
+		</svg>
+	);
+}
+
+export function CodeIcon(props: SVGProps<SVGSVGElement>) {
+	return (
+		<svg {...base} {...props}>
+			<path d="m8 6-6 6 6 6M16 6l6 6-6 6" />
+		</svg>
+	);
+}
+
+export function WrenchIcon(props: SVGProps<SVGSVGElement>) {
+	return (
+		<svg {...base} {...props}>
+			<path d="M14.7 6.3a4 4 0 0 0-5.2 5.2L3 18l3 3 6.5-6.5a4 4 0 0 0 5.2-5.2l-2.6 2.6-2.4-2.4 2.6-2.6z" />
+		</svg>
+	);
+}

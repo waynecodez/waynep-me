@@ -6,9 +6,9 @@ type NavProps = {
 };
 
 const links = [
-	{ label: "Tether", href: "#tether" },
-	{ label: "Work", href: "#work" },
+	{ label: "Strengths", href: "#strengths" },
 	{ label: "Experience", href: "#experience" },
+	{ label: "Work", href: "#work" },
 	{ label: "About", href: "#about" },
 	{ label: "Contact", href: "#contact" },
 ];

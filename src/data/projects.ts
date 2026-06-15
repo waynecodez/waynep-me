@@ -70,14 +70,13 @@ export const projects: Project[] = [
 		category: "Developer Tools & Platform",
 	},
 	{
-		id: "tether-note",
+		id: "tether",
 		name: "Tether",
-		tagline: "Proximity lock for the Mac — featured above",
+		tagline: "Proximity lock for the Mac",
 		description:
-			"A Swift menu-bar app that locks and unlocks your Mac over Bluetooth proximity, paired with a fixed-UUID iOS beacon. See the full breakdown in the featured section.",
+			"A Swift menu-bar app that locks and unlocks your Mac over Bluetooth proximity, paired with a fixed-UUID iOS beacon and a pure, test-driven state machine that turns noisy signal into a lock decision you can trust.",
 		tags: ["Swift", "macOS", "iOS", "BLE"],
 		category: "Native & Desktop",
-		links: [{ label: "Read more", href: "#tether" }],
 	},
 	{
 		id: "sidekick",

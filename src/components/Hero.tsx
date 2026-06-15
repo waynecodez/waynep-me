@@ -29,29 +29,27 @@ export function Hero() {
 					className="max-w-3xl animate-fade-up text-4xl font-semibold leading-[1.1] tracking-tight sm:text-6xl"
 					style={{ animationDelay: "0.05s" }}
 				>
-					I build products end to end — from native apps to streaming
-					infrastructure.
+					I build, ship, and lead software across the entire stack.
 				</h1>
 				<p
 					className="mt-6 max-w-2xl animate-fade-up text-lg leading-relaxed text-zinc-600 dark:text-zinc-400"
 					style={{ animationDelay: "0.1s" }}
 				>
-					Full-stack engineer working across TypeScript, Go, Swift, Rust and
-					Python — building native apps, web platforms, mobile apps, and
-					developer tooling. I care about clean abstractions, reliable systems,
-					and the details that make software feel right — like{" "}
-					<span className="text-zinc-900 dark:text-zinc-100">Tether</span>, a
-					proximity lock for the Mac.
+					Full-stack engineer fluent in TypeScript, Go, Swift, Rust and Python.
+					For the past few years I&apos;ve been the de facto technical lead on
+					client engagements — setting architecture, owning delivery from design
+					to production, and building the tooling that makes the team around me
+					faster.
 				</p>
 				<div
 					className="mt-10 flex animate-fade-up flex-wrap items-center gap-3"
 					style={{ animationDelay: "0.15s" }}
 				>
 					<a
-						href="#tether"
+						href="#strengths"
 						className="group inline-flex items-center gap-2 rounded-xl bg-accent-deep px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-accent"
 					>
-						See Tether
+						What I bring
 						<ArrowIcon className="transition-transform group-hover:translate-x-0.5" />
 					</a>
 					<a

@@ -37,19 +37,22 @@ export function About() {
 						<p>
 							I&apos;m Wayne Puranda — a software engineer who enjoys taking an
 							idea from a blank repo to something people actually use, and
-							owning every layer in between.
+							owning every layer in between. Over the last few years that&apos;s
+							increasingly meant leading the technical direction too: shaping
+							architecture, mentoring, and being the person the team turns to
+							when something is stuck.
 						</p>
 						<p>
-							I work end to end: intuitive front ends in React and React Native
-							with Tailwind and Storybook, robust services in Go backed by
-							PostgreSQL, and Docker and Kubernetes to ship and scale them. I
-							care about clean abstractions and a stubborn attention to
-							real-world detail — like turning a noisy Bluetooth signal into a
-							lock decision you can trust.
+							I work end to end — intuitive front ends in React and React
+							Native, robust services in Go backed by PostgreSQL, and Docker and
+							Kubernetes to ship and scale them — and I care about clean
+							abstractions, reliable systems, and a stubborn attention to
+							real-world detail.
 						</p>
 						<p>
-							Outside of work I design and ship my own products, which is where
-							projects like Tether come from.
+							Outside of work I design and ship my own products and open-source
+							tools, which keeps me close to every part of the craft and feeds
+							back into the work I do for teams.
 						</p>
 					</div>
 				</div>

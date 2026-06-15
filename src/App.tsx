@@ -1,11 +1,11 @@
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
 import { Experience } from "./components/Experience";
-import { FeaturedTether } from "./components/FeaturedTether";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { Nav } from "./components/Nav";
 import { Projects } from "./components/Projects";
+import { Strengths } from "./components/Strengths";
 import { useTheme } from "./hooks/useTheme";
 
 export default function App() {
@@ -16,9 +16,9 @@ export default function App() {
 			<Nav theme={theme} onToggleTheme={toggle} />
 			<main>
 				<Hero />
-				<FeaturedTether />
-				<Projects />
+				<Strengths />
 				<Experience />
+				<Projects />
 				<About />
 				<Contact />
 			</main>
