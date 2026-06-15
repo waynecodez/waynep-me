@@ -1,7 +1,7 @@
 import { ArrowIcon } from "./icons";
 
 const focus = [
-	{ value: "Polyglot", label: "TS · Go · Swift · Rust · Python" },
+	{ value: "Core stack", label: "React · TypeScript · Go" },
 	{ value: "Every surface", label: "Web · Native · Mobile · CLI" },
 	{ value: "Cloud-native", label: "Docker · Kubernetes" },
 ];
@@ -35,10 +35,11 @@ export function Hero() {
 					className="mt-6 max-w-2xl animate-fade-up text-lg leading-relaxed text-zinc-600 dark:text-zinc-400"
 					style={{ animationDelay: "0.1s" }}
 				>
-					Full-stack engineer fluent in TypeScript, Go, Swift, Rust and Python.
-					I lead the technical direction on client engagements — setting
-					architecture, owning delivery from design to production, and building
-					the tooling that makes the team around me faster.
+					Full-stack engineer — fluent in React, TypeScript and Go, with
+					production experience in Swift, Rust and Python. I lead the technical
+					direction on client engagements — setting architecture, owning
+					delivery from design to production, and building the tooling that makes
+					the team around me faster.
 				</p>
 				<div
 					className="mt-10 flex animate-fade-up flex-wrap items-center gap-3"

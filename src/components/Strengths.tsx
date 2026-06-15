@@ -13,8 +13,8 @@ const strengths = [
 	},
 	{
 		icon: CodeIcon,
-		title: "Polyglot range",
-		body: "TypeScript, Go, Swift, Rust, Python. I go where the problem is — frontend, backend, native, or infrastructure — and ramp fast in an unfamiliar stack instead of waiting for the right specialist.",
+		title: "Range across the stack",
+		body: "My core is React, TypeScript, and Go, and I've shipped production code in Swift, Rust, and Python when the problem called for it. I go where the work is — frontend, backend, native, or infrastructure — and ramp fast instead of waiting for the right specialist.",
 	},
 	{
 		icon: WrenchIcon,
