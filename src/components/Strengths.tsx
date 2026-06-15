@@ -52,8 +52,7 @@ export function Strengths() {
 					A few things I&apos;m genuinely good at.
 				</h2>
 				<p className="mt-4 max-w-2xl text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
-					Less about the buzzwords, more about what I&apos;m actually like to
-					work with.
+					Here&apos;s what that looks like day to day.
 				</p>
 
 				<div className="mt-12 grid gap-5 sm:grid-cols-2">
