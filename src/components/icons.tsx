@@ -120,3 +120,22 @@ export function WrenchIcon(props: SVGProps<SVGSVGElement>) {
 		</svg>
 	);
 }
+
+export function SparklesIcon(props: SVGProps<SVGSVGElement>) {
+	return (
+		<svg {...base} {...props}>
+			<path d="M12 3l1.9 4.6L18.5 9.5 13.9 11.4 12 16l-1.9-4.6L5.5 9.5l4.6-1.9L12 3z" />
+			<path d="M19 14l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8.8-2z" />
+		</svg>
+	);
+}
+
+export function RocketIcon(props: SVGProps<SVGSVGElement>) {
+	return (
+		<svg {...base} {...props}>
+			<path d="M5 15c-1.5 1-2 5-2 5s4-.5 5-2a2.8 2.8 0 0 0-3-3z" />
+			<path d="M9 13l-2-2c1-4 4-8 9-8 0 5-4 8-8 9l-2-2" />
+			<path d="M14 6.5a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0z" />
+		</svg>
+	);
+}

@@ -38,8 +38,8 @@ export function Hero() {
 					Full-stack engineer — fluent in React, TypeScript and Go, with
 					production experience in Swift, Rust and Python. I lead the technical
 					direction on client engagements — setting architecture, owning
-					delivery from design to production, and building the tooling that makes
-					the team around me faster.
+					delivery from design to production, and building the AI and agentic
+					tooling that makes the team around me faster.
 				</p>
 				<div
 					className="mt-10 flex animate-fade-up flex-wrap items-center gap-3"

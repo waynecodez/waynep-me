@@ -9,19 +9,55 @@ const skillGroups = [
 	},
 	{
 		label: "Frontend",
-		items: ["React", "React Native", "Tailwind", "Vite", "Storybook"],
+		items: [
+			"React",
+			"React Native",
+			"Tailwind",
+			"Vite",
+			"Zustand",
+			"React Query",
+			"Storybook",
+			"Valibot",
+		],
 	},
 	{
 		label: "Backend",
-		items: ["Go", "Node · Express", "PostgreSQL", "MongoDB", "WebSockets"],
+		items: [
+			"Go · Gin",
+			"Node · Express",
+			"MongoDB",
+			"PostgreSQL",
+			"Redis",
+			"WebSockets",
+			"Auth0",
+			"Stripe",
+		],
+	},
+	{
+		label: "AI & ML",
+		items: [
+			"LLM APIs (OpenAI)",
+			"Agentic tooling / MCP",
+			"PyTorch",
+			"Demucs · Transformers",
+			"FastAPI",
+			"Prompt engineering",
+		],
 	},
 	{
 		label: "Native & Desktop",
-		items: ["SwiftUI · AppKit", "Tauri", "Expo", "BLE / CoreBluetooth"],
+		items: ["SwiftUI · AppKit", "Tauri", "Expo", "Ink (TUI)", "BLE"],
 	},
 	{
-		label: "Infra & AI",
-		items: ["Docker", "Kubernetes", "CI/CD", "AI tooling"],
+		label: "Infra & DevOps",
+		items: [
+			"Docker",
+			"Kubernetes",
+			"CI/CD (GitLab)",
+			"AWS / Spaces",
+			"Playwright",
+			"Vitest",
+		],
 	},
 ];
 

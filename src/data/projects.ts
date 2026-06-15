@@ -34,10 +34,10 @@ export const projects: Project[] = [
 	{
 		id: "forge",
 		name: "Forge",
-		tagline: "AI deploy control panel",
+		tagline: "Agentic deploy control panel",
 		description:
-			"A control panel that wires an AI coding assistant, GitLab, and Kubernetes together — propose a code change, review it, and ship the deploy from one place. Published as an embeddable npm package.",
-		tags: ["React", "TypeScript", "Vite", "Express", "Kubernetes"],
+			"An agentic control panel that wires an AI assistant, GitLab, and Kubernetes together — it proposes a code change, you review it, and it ships the deploy from one place. Published as an embeddable npm package.",
+		tags: ["React", "TypeScript", "AI / Agentic", "Kubernetes", "Express"],
 		category: "Developer Tools & Platform",
 		status: "npm package",
 	},
@@ -100,10 +100,10 @@ export const projects: Project[] = [
 	{
 		id: "streaming-platform",
 		name: "Streaming Platform",
-		tagline: "Full-stack media product",
+		tagline: "Full-stack media product with AI",
 		description:
-			"A full-stack streaming product: a React 19 SPA, a Go API, and a Python AI service for in-browser audio processing. Live rooms, real-time presence over WebSockets, and Kubernetes deploys.",
-		tags: ["React 19", "Go", "Python", "WebSockets", "Kubernetes"],
+			"A full-stack streaming product: a React 19 SPA, a Go API with an OpenAI-backed assistant, and a Python (PyTorch/Demucs) service for in-browser stem separation. Live rooms, real-time presence over WebSockets, and Kubernetes deploys.",
+		tags: ["React 19", "Go", "Python · PyTorch", "OpenAI", "Kubernetes"],
 		category: "Mobile & Web",
 	},
 	{

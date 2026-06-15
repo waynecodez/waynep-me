@@ -1,4 +1,11 @@
-import { CodeIcon, CompassIcon, LayersIcon, WrenchIcon } from "./icons";
+import {
+	CodeIcon,
+	CompassIcon,
+	LayersIcon,
+	RocketIcon,
+	SparklesIcon,
+	WrenchIcon,
+} from "./icons";
 
 const strengths = [
 	{
@@ -7,19 +14,29 @@ const strengths = [
 		body: "I lead the technical direction on client engagements across teams of 5 to 30 engineers — setting the architecture, making the hard calls, and unblocking the team. I set the standard the rest of the codebase is built against.",
 	},
 	{
+		icon: SparklesIcon,
+		title: "AI & agentic engineering",
+		body: "I build real AI into products: LLM-backed assistants with conversation and generation flows over OpenAI, a Python inference service running PyTorch and Demucs, and agentic developer tools that connect an AI assistant to GitLab and Kubernetes to propose and ship changes.",
+	},
+	{
 		icon: LayersIcon,
-		title: "End-to-end delivery",
-		body: "I take features from a blank repo to production — UI, API, data, and deploy — so work ships instead of stalling on handoffs. Docker, Kubernetes, and CI/CD mean it lands reliably and stays up.",
+		title: "End-to-end ownership",
+		body: "I take features from a blank repo to production — UI, API, data, and deploy — so work ships instead of stalling on handoffs.",
+	},
+	{
+		icon: RocketIcon,
+		title: "Cloud-native, reliable delivery",
+		body: "Docker, Kubernetes, and CI/CD mean what I build lands reliably and stays up — with the observability and rollback paths to keep it that way.",
 	},
 	{
 		icon: CodeIcon,
 		title: "Range across the stack",
-		body: "My core is React, TypeScript, and Go, and I've shipped production code in Swift, Rust, and Python when the problem called for it. I go where the work is — frontend, backend, native, or infrastructure — and ramp fast instead of waiting for the right specialist.",
+		body: "My core is React, TypeScript, and Go, and I've shipped production code in Swift, Rust, and Python when the problem called for it. I go where the work is and ramp fast instead of waiting for the right specialist.",
 	},
 	{
 		icon: WrenchIcon,
 		title: "Force-multiplier tooling",
-		body: "I build the dashboards, CLIs, and libraries that make the whole team faster — an AI deploy control panel, an embeddable Kubernetes dashboard, shared component libraries. Leverage, not just output.",
+		body: "I build the dashboards, CLIs, and libraries that make the whole team faster — an agentic deploy control panel, an embeddable Kubernetes dashboard, shared component libraries. Leverage, not just output.",
 	},
 ];
 
